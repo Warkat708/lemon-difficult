@@ -7,7 +7,7 @@ import Ward from "./Ward";
 ReactDOM.render(
   <React.StrictMode>
     <Ward />
-    <p><small>Coded by <strong>Kat Alex</strong> and stored in <a href="https://github.com">Github</a></small></p> 
+    <p><small>Coded by <strong>Kat Alex</strong> and stored in <a href="https://github.com/warkat708/lemon.difficult">Github</a></small></p> 
   </React.StrictMode>,
   document.getElementById('root')
 );
