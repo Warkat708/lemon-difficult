@@ -49,7 +49,7 @@ export default function Ward(){
           </div>
         </div>
       </form>
-      <h1 id="city"></h1>
+      <h1 id="city">""</h1>
       <ul>
         <li>
           Current UK Time: 10am
@@ -71,9 +71,7 @@ export default function Ward(){
           </span>
           <span className="units">
             °C |
-            <a href="#" id="farenheit-link">
               °F
-            </a>
           </span>
         </div>
         <div className="col-6">
