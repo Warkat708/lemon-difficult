@@ -1,0 +1,220 @@
+body {
+  border: 1px solid #dadde1;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  border-radius: 6px;
+  margin: 20px auto;
+  max-width: 630px;
+  background-color: white;
+}
+.title {
+  color: #541412;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.favourites {
+  padding-bottom: 25px;
+}
+.details {
+  padding-top: 20px;
+}
+h1 {
+  font-size: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #541412;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+li {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #541412;
+  list-style: none;
+  line-height: 1.1;
+}
+ul {
+  padding: 0;
+  margin-bottom: 15px;
+}
+.temperature {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -18px;
+}
+.btn-light1 {
+  background-color: #c34f5a;
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-light2 {
+  background-color: #c34f5a;
+  border-color: rgb(240, 227, 227);
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-light3 {
+  background-color: #c34f5a;
+  border-color: rgb(240, 227, 227);
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 30px;
+  padding: 5px 15px;
+}
+.btn-light4 {
+  background-color: #c34f5a;
+  border-color: rgb(240, 227, 227);
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-light1:hover {
+  background-color: white;
+  border-color: darkgrey;
+  color: black;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-light2:hover {
+  background-color: white;
+  border-color: darkgrey;
+  color: black;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-light3:hover {
+  background-color: white;
+  border-color: darkgrey;
+  color: black;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 30px;
+  padding: 5px 15px;
+}
+.btn-light4:hover {
+  background-color: white;
+  border-color: darkgrey;
+  color: black;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+.btn-primary {
+  background-color: #541412;
+  border-color: rgb(240, 227, 227);
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+}
+.btn-success {
+  background-color: #541412;
+  border-color: rgb(240, 227, 227);
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in-out;
+}
+.btn-success:hover {
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+}
+.sixDays {
+  padding: 15px;
+  color: grey;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.btn-light:hover {
+  background-color: rgb(175, 172, 172);
+  color: white;
+  border: 1px solid grey;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.footnote {
+  text-align: center;
+  font-size: x-small;
+  padding-top: 20px;
+}
